@@ -1,0 +1,36 @@
+﻿
+@using BookingSystem.Web.Models.Common.Modals
+@using BookingSystem.Web.Models.Cities
+@model CityViewModel
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("Details")))
+
+<div class="modal-body">
+    <div id="CityInformationsTab">
+        
+        <div class="row">
+            <div class="col-6 mb-3">
+                <h6>@L("Code") :</h6>
+                @Model.City.Code
+            </div>
+            <div class="col-6 mb-3">
+                <h6>@L("Name") :</h6>
+                @Model.City.Name
+            </div>
+            <div class="col-6 mb-3">
+                <h6>@L("DisplayName") :</h6>
+                @Model.City.DisplayName
+            </div>
+            <div class="col-6 mb-3">
+                <h6>@L("Country") :</h6>
+                @Model.City.Country
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalFooterWithClose.cshtml")
+

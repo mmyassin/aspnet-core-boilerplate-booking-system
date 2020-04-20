@@ -1,0 +1,153 @@
+﻿@using BookingSystem.Flights;
+					
+@using System.Globalization
+@using BookingSystem.Web.Models.Common.Modals
+@using BookingSystem.Web.Models.Flights
+@model CreateOrEditFlightModalViewModel
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditFlight")) : L("CreateNewFlight")))
+
+    <div class="modal-body">
+        <div id="FlightInformationsTab">
+            <form name="FlightInformationsForm" role="form" novalidate class="form-validation">
+
+                @if (Model.IsEditMode)
+                {
+                    <input type="hidden" name="id" value="@Model.Flight.Id" />
+                }
+                <div class=" row">
+                    <div class="col-4">
+                        <div class="form-group m-form__group">
+                            <label for="CityName">@L("LocationOfDeparture")</label>
+                            <div class="input-group">
+                                <input class="form-control" id="CityName" name="cityName" value="@Model.CityName" type="text" disabled>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary blue" id="OpenCityLookupTableButton" type="button"><i class="fa fa-search"></i> @L("Pick")</button>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-danger btn-icon" type="button" id="ClearCityNameButton"><i class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        @if (Model.IsEditMode)
+                        {
+                            <input class="form-control" id="Flight_LocationOfDepartureId" value="@Model.Flight.LocationOfDepartureId" type="text" name="locationOfDepartureId" required hidden />
+                        }
+                        else
+                        {
+                            <input class="form-control" id="Flight_LocationOfDepartureId" value="" type="text" name="locationOfDepartureId" required hidden />
+                        }
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group m-form__group">
+                            <label for="CityName2">@L("LocationOfArrival")</label>
+                            <div class="input-group">
+                                <input class="form-control" id="CityName2" name="cityName2" value="@Model.CityName2" type="text" disabled>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary blue" id="OpenCity2LookupTableButton" type="button"><i class="fa fa-search"></i> @L("Pick")</button>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-danger btn-icon" type="button" id="ClearCityName2Button"><i class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        @if (Model.IsEditMode)
+                        {
+                            <input class="form-control" id="Flight_LocationOfArrivalId" value="@Model.Flight.LocationOfArrivalId" type="text" name="locationOfArrivalId" hidden />
+                        }
+                        else
+                        {
+                            <input class="form-control" id="Flight_LocationOfArrivalId" value="" type="text" name="locationOfArrivalId" hidden />
+                        }
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group m-form__group">
+                            <label for="jetJetType">@L("Jet")</label>
+                            <div class="input-group">
+                                <input class="form-control" id="jetJetType" name="jetJetType" value="@Model.JetJetType" type="text" disabled>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary blue" id="OpenJetLookupTableButton" type="button"><i class="fa fa-search"></i> @L("Pick")</button>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-danger btn-icon" type="button" id="ClearJetTenantIdButton"><i class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        @if (Model.IsEditMode)
+                        {
+                            <input class="form-control" id="Flight_JetId" value="@Model.Flight.JetId" type="text" name="jetId" hidden />
+                        }
+                        else
+                        {
+                            <input class="form-control" id="Flight_JetId" value="" type="text" name="jetId" hidden />
+                        }
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="Flight_FlightNumber">@L("FlightNumber")</label>
+                            <input class="form-control" id="Flight_FlightNumber" value="@Model.Flight.FlightNumber" type="text" name="flightNumber" required />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="Flight_DepartureDate">@L("DepartureDate")</label>
+                            <input class="form-control m-input date-picker" id="Flight_DepartureDate" type="text" name="departureDate" value="@Model.Flight.DepartureDate" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="Flight_ArrivalDate">@L("ArrivalDate")</label>
+                            <input class="form-control m-input date-picker" id="Flight_ArrivalDate" type="text" name="arrivalDate" value="@Model.Flight.ArrivalDate" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="Flight_EconomySeats">@L("EconomySeats")</label>
+                            <input class="form-control m-input" id="Flight_EconomySeats" value="@Model.Flight.EconomySeats.ToString(CultureInfo.InvariantCulture)" type="number" name="economySeats" />
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="Flight_EconomyPrice">@L("EconomyPrice")</label>
+                            <input class="form-control m-input" id="Flight_EconomyPrice" value="@Model.Flight.EconomyPrice.ToString(CultureInfo.InvariantCulture)" type="number" name="economyPrice" />
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="Flight_BusinessSeats">@L("BusinessSeats")</label>
+                            <input class="form-control m-input" id="Flight_BusinessSeats" value="@Model.Flight.BusinessSeats.ToString(CultureInfo.InvariantCulture)" type="number" name="businessSeats" />
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="form-group">
+                            <label for="Flight_BusinessPrice">@L("BusinessPrice")</label>
+                            <input class="form-control m-input" id="Flight_BusinessPrice" value="@Model.Flight.BusinessPrice.ToString(CultureInfo.InvariantCulture)" type="number" name="businessPrice" />
+                        </div>
+                    </div>
+                </div> 
+
+                @{
+                    var selectListStatus = Html.GetEnumSelectList(typeof(FlightStatus));
+                    foreach (var selectOption in selectListStatus) { selectOption.Text = L("Enum_FlightStatus_" + selectOption.Value); }
+                }
+                <div class="form-group m-form__group">
+                    <label for="Flight_Status">@L("Status")</label>
+                    <select class="form-control m-input m-input--square" name="status" id="Flight_Status" asp-for="@Model.Flight.Status" asp-items="@selectListStatus">
+                    </select>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

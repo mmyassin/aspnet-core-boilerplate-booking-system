@@ -1,0 +1,70 @@
+﻿@using BookingSystem.Authorization
+@using BookingSystem.Web.Models.Cities
+@using BookingSystem.Web.Startup
+@model CitiesViewModel
+@{
+    ViewBag.CurrentPageName = AppPageNames.Tenant.Cities;
+}
+@section Scripts
+{
+    <environment names="Development">
+        <script src="~/view-resources/Views/Cities/Index.js" asp-append-version="true"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/Cities/Index.min.js" asp-append-version="true"></script>
+    </environment>
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>@L("Cities")</h1>
+            </div>
+            <div class="col-sm-6">
+                @if (IsGranted(AppPermissions.Pages_Cities_Create))
+                {
+                    <button id="CreateNewCityButton" class="btn bg-blue float-sm-right"><i class="fa fa-plus"></i> @L("CreateNewCity")</button>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" id="CitiesTableFilter" class="form-control" placeholder="@L("SearchWithThreeDot")" value="@Model.FilterText">
+                                <div class="input-group-append">
+                                    <button id="GetCitiesButton" class="btn bg-blue btn-search" type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="CitiesTable" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>@L("Actions")</th>
+                                        <th>@L("Code")</th>
+                                        <th>@L("Name")</th>
+                                        <th>@L("DisplayName")</th>
+                                        <th>@L("Country")</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

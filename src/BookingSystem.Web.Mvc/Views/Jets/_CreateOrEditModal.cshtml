@@ -1,0 +1,37 @@
+﻿
+@using System.Globalization
+@using BookingSystem.Web.Models.Common.Modals
+@using BookingSystem.Web.Models.Jets
+@model CreateOrEditJetModalViewModel
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditJet")) : L("CreateNewJet")))
+
+    <div class="modal-body">
+        <div id="JetInformationsTab">
+            <form name="JetInformationsForm" role="form" novalidate class="form-validation">
+                @if (Model.IsEditMode)
+                {
+                    <input type="hidden" name="id" value="@Model.Jet.Id" />
+                }
+                <div class="form-group">
+                    <label for="Jet_JetType">@L("JetType")</label>
+                    <input class="form-control" id="Jet_JetType" value="@Model.Jet.JetType" type="text" name="jetType" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Jet_TotalCapacity">@L("TotalCapacity")</label>
+                    <input class="form-control m-input" id="Jet_TotalCapacity" value="@Model.Jet.TotalCapacity.ToString(CultureInfo.InvariantCulture)" type="number" name="totalCapacity" />
+                </div>
+
+                <div class="m-checkbox-list">
+                    <label for="Jet_IsActive" class="kt-checkbox">
+                        <input id="Jet_IsActive" type="checkbox" name="isActive" value="true" @Html.Raw(Model.Jet.IsActive ? "checked=\"checked\"" : "") />
+                        @L("IsActive")
+                        <span></span>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

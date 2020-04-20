@@ -1,0 +1,42 @@
+﻿
+@using System.Globalization
+@using BookingSystem.Web.Models.Common.Modals
+@using BookingSystem.Web.Models.Cities
+@model CreateOrEditCityModalViewModel
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditCity")) : L("CreateNewCity")))
+
+    <div class="modal-body">
+        <div id="CityInformationsTab">
+            <form name="CityInformationsForm" role="form" novalidate class="form-validation">
+
+                @if (Model.IsEditMode)
+                {
+                    <input type="hidden" name="id" value="@Model.City.Id" />
+                }
+                <div class="form-group">
+                    <label for="City_Code">@L("Code")</label>
+                    <input class="form-control" id="City_Code" value="@Model.City.Code" type="text" name="code" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="City_Name">@L("Name")</label>
+                    <input class="form-control" id="City_Name" value="@Model.City.Name" type="text" name="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="City_DisplayName">@L("DisplayName")</label>
+                    <input class="form-control" id="City_DisplayName" value="@Model.City.DisplayName" type="text" name="displayName" />
+                </div>
+
+                <div class="form-group">
+                    <label for="City_Country">@L("Country")</label>
+                    <input class="form-control" id="City_Country" value="@Model.City.Country" type="text" name="country" />
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

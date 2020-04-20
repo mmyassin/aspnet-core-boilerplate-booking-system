@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp-concat": "^2.6.1",
+    "merge-stream": "^2.0.0"
+  }
+}

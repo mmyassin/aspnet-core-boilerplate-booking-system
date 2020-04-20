@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>BookingSystem.Web.Mvc</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>BookingSystem.Web.Mvc</PackageId>
+    <UserSecretsId>AbpCompanyName-BookingSystem-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
+    <RootNamespace>BookingSystem.Web</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <MvcRazorExcludeRefAssembliesFromPublish>false</MvcRazorExcludeRefAssembliesFromPublish>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="package.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\view-resources\Views\Account\_Layout.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="package.json" />
+    <None Include="Views\Cities\Index.cshtml" />
+    <None Include="Views\Cities\_CreateOrEditModal.cshtml" />
+    <None Include="Views\Cities\_ViewCityModal.cshtml" />
+    <None Include="Views\Common\Modals\Empty\_Empty.cshtml" />
+    <None Include="Views\Common\Modals\_EntityTypeHistoryModal.cshtml" />
+    <None Include="Views\Common\Modals\_InactivityControllerNotifyModal.cshtml" />
+    <None Include="Views\Common\Modals\_LookupModal.cshtml" />
+    <None Include="Views\Common\Modals\_ModalFooterWithClose.cshtml" />
+    <None Include="Views\Common\Modals\_ModalFooterWithSaveAndCancel.cshtml" />
+    <None Include="Views\Common\Modals\_ModalHeader.cshtml" />
+    <None Include="Views\Flights\Index.cshtml" />
+    <None Include="Views\Flights\_CreateOrEditModal.cshtml" />
+    <None Include="Views\Flights\_FlightCityLookupTableModal.cshtml" />
+    <None Include="Views\Flights\_FlightJetLookupTableModal.cshtml" />
+    <None Include="Views\Flights\_ViewFlightModal.cshtml" />
+    <None Include="Views\Jets\Index.cshtml" />
+    <None Include="Views\Jets\_CreateOrEditModal.cshtml" />
+    <None Include="Views\Jets\_ViewJetModal.cshtml" />
+    <None Include="wwwroot\view-resources\Views\Cities\Index.js" />
+    <None Include="wwwroot\view-resources\Views\Cities\Index.min.js" />
+    <None Include="wwwroot\view-resources\Views\Cities\_CreateOrEditModal.js" />
+    <None Include="wwwroot\view-resources\Views\Cities\_CreateOrEditModal.min.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\Index.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\Index.min.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\_CreateOrEditModal.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\_CreateOrEditModal.min.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\_FlightCityLookupTableModal.js" />
+    <None Include="wwwroot\view-resources\Views\Flights\_FlightJetLookupTableModal.js" />
+    <None Include="wwwroot\view-resources\Views\Jets\Index.js" />
+    <None Include="wwwroot\view-resources\Views\Jets\Index.min.js" />
+    <None Include="wwwroot\view-resources\Views\Jets\_CreateOrEditModal.js" />
+    <None Include="wwwroot\view-resources\Views\Jets\_CreateOrEditModal.min.js" />
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="wwwroot\**\*;Views\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookingSystem.Web.Core\BookingSystem.Web.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
+    <PackageReference Include="BuildWebCompiler" Version="1.12.394" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.8.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.1" />
+    <PackageReference Include="Abp.HangFire" Version="5.4.0" />
+    <PackageReference Include="Abp.RedisCache" Version="5.4.0" />
+    <PackageReference Include="Abp.Castle.Log4Net" Version="5.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\libs\" />
+    <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
+  </ItemGroup>
+</Project>

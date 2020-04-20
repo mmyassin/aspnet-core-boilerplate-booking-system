@@ -1,0 +1,12 @@
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\bin\Debug\netcoreapp3.1\BookingSystem.Application.deps.json
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\bin\Debug\netcoreapp3.1\BookingSystem.Application.dll
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\bin\Debug\netcoreapp3.1\BookingSystem.Application.pdb
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\bin\Debug\netcoreapp3.1\BookingSystem.Core.dll
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\bin\Debug\netcoreapp3.1\BookingSystem.Core.pdb
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.csprojAssemblyReference.cache
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.csproj.CoreCompileInputs.cache
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.AssemblyInfoInputs.cache
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.AssemblyInfo.cs
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.csproj.CopyComplete
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.dll
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\obj\Debug\netcoreapp3.1\BookingSystem.Application.pdb

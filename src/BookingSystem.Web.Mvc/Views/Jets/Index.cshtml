@@ -1,0 +1,81 @@
+﻿@using BookingSystem.Authorization
+@using BookingSystem.Web.Models.Jets
+@using BookingSystem.Web.Startup
+@model JetsViewModel
+@{
+    ViewBag.CurrentPageName = AppPageNames.Tenant.Jets;
+}
+@section Scripts
+{
+    <environment names="Development">
+        <script src="~/view-resources/Views/Jets/Index.js" asp-append-version="true"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/Jets/Index.min.js" asp-append-version="true"></script>
+    </environment>
+}
+
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>@L("Jets")</h1>
+            </div>
+            <div class="col-sm-6">
+                @if (IsGranted(AppPermissions.Pages_Jets_Create))
+                {
+                    <button id="CreateNewJetButton" class="btn btn-primary blue float-sm-right"><i class="fa fa-plus"></i> @L("CreateNewJet")</button>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" id="JetsTableFilter" class="form-control m-input" placeholder="@L("SearchWithThreeDot")" value="@Model.FilterText">
+                                    <div class="input-group-append">
+                                        <button id="GetJetsButton" class="btn bg-blue btn-search" type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-md-3">
+                                <label for="IsActiveFilterId">@L("IsActive")</label>
+                                <select class="form-control" name="IsActiveFilter" id="IsActiveFilterId">
+                                    <option value="-1">@L("All")</option>
+                                    <option value="0">@L("False")</option>
+                                    <option value="1">@L("True")</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="JetsTable" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>@L("Actions")</th>
+                                        <th>@L("JetType")</th>
+                                        <th>@L("TotalCapacity")</th>
+                                        <th>@L("IsActive")</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
