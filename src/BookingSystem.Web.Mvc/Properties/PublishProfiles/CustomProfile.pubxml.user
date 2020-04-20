@@ -50,13 +50,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2020 13:26:02</publishTime>
     </File>
     <File Include="app.config">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>04/20/2020 20:57:21</publishTime>
     </File>
     <File Include="appsettings.Staging.json">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="AutoMapper.Collection.dll">
       <publishTime>12/25/2019 01:36:58</publishTime>
@@ -65,58 +68,58 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/12/2019 12:42:04</publishTime>
     </File>
     <File Include="BookingSystem.Application.dll">
-      <publishTime>04/20/2020 16:11:15</publishTime>
+      <publishTime>04/20/2020 19:40:46</publishTime>
     </File>
     <File Include="BookingSystem.Application.pdb">
-      <publishTime>04/20/2020 16:11:15</publishTime>
+      <publishTime>04/20/2020 19:40:46</publishTime>
     </File>
     <File Include="BookingSystem.Core.dll">
-      <publishTime>04/20/2020 16:11:12</publishTime>
+      <publishTime>04/20/2020 19:40:37</publishTime>
     </File>
     <File Include="BookingSystem.Core.pdb">
-      <publishTime>04/20/2020 16:11:11</publishTime>
+      <publishTime>04/20/2020 19:40:37</publishTime>
     </File>
     <File Include="BookingSystem.EntityFrameworkCore.dll">
-      <publishTime>04/20/2020 16:11:18</publishTime>
+      <publishTime>04/20/2020 19:40:51</publishTime>
     </File>
     <File Include="BookingSystem.EntityFrameworkCore.dll.config">
       <publishTime>04/20/2020 16:11:16</publishTime>
     </File>
     <File Include="BookingSystem.EntityFrameworkCore.pdb">
-      <publishTime>04/20/2020 16:11:18</publishTime>
+      <publishTime>04/20/2020 19:40:51</publishTime>
     </File>
     <File Include="BookingSystem.Web.Core.dll">
-      <publishTime>04/20/2020 16:11:21</publishTime>
+      <publishTime>04/20/2020 19:40:54</publishTime>
     </File>
     <File Include="BookingSystem.Web.Core.pdb">
-      <publishTime>04/20/2020 16:11:21</publishTime>
+      <publishTime>04/20/2020 19:40:54</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.deps.json">
-      <publishTime>04/20/2020 16:12:32</publishTime>
+      <publishTime>04/20/2020 20:57:21</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.dll">
-      <publishTime>04/20/2020 16:11:32</publishTime>
+      <publishTime>04/20/2020 20:56:39</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.dll.config">
       <publishTime>04/20/2020 16:11:25</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.exe">
-      <publishTime>04/20/2020 16:11:32</publishTime>
+      <publishTime>04/20/2020 20:56:39</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.pdb">
-      <publishTime>04/20/2020 16:11:32</publishTime>
+      <publishTime>04/20/2020 20:56:39</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.runtimeconfig.json">
       <publishTime>04/20/2020 16:11:36</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.Views.dll">
-      <publishTime>04/20/2020 16:11:35</publishTime>
+      <publishTime>04/20/2020 20:56:43</publishTime>
     </File>
     <File Include="BookingSystem.Web.Mvc.Views.pdb">
-      <publishTime>04/20/2020 16:11:35</publishTime>
+      <publishTime>04/20/2020 20:56:43</publishTime>
     </File>
     <File Include="bundleconfig.json">
-      <publishTime>04/19/2020 18:02:57</publishTime>
+      <publishTime>04/20/2020 19:51:46</publishTime>
     </File>
     <File Include="Castle.Core.AsyncInterceptor.dll">
       <publishTime>09/20/2019 09:56:52</publishTime>
@@ -137,7 +140,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/22/2018 07:12:36</publishTime>
     </File>
     <File Include="compilerconfig.json">
-      <publishTime>04/20/2020 15:48:35</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:08:58</publishTime>
@@ -164,7 +167,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Dockerfile">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
       <publishTime>01/24/2020 22:47:12</publishTime>
@@ -239,10 +242,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="libman.json">
-      <publishTime>04/20/2020 15:45:36</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="log4net.config">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="log4net.dll">
       <publishTime>03/08/2017 19:26:22</publishTime>
@@ -413,7 +416,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/04/2019 08:23:22</publishTime>
     </File>
     <File Include="package-lock.json">
-      <publishTime>04/18/2020 17:40:52</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="PaulMiami.AspNetCore.Mvc.Recaptcha.dll">
       <publishTime>08/24/2017 22:29:00</publishTime>
@@ -1385,52 +1388,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Views/Common/Modals/Empty/README.txt">
-      <publishTime>04/19/2020 03:02:42</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>04/20/2020 16:12:32</publishTime>
+      <publishTime>04/20/2020 20:57:21</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/Datatables/buttons.print.min.js">
-      <publishTime>04/19/2020 06:14:28</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/Datatables/datatables.ajax.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/Datatables/datatables.defaults.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/Datatables/datatables.record-actions.js">
-      <publishTime>04/19/2020 05:26:00</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/helpers.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/jquery-custom.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/ModalManager.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/Common/Scripts/ResourceLoader.js">
-      <publishTime>04/19/2020 03:02:49</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/css/style.css">
-      <publishTime>04/20/2020 15:49:48</publishTime>
+      <publishTime>04/20/2020 18:07:49</publishTime>
     </File>
     <File Include="wwwroot/css/style.min.css">
-      <publishTime>04/20/2020 15:49:48</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/img/favicon.ico">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/img/logo.png">
-      <publishTime>04/18/2020 17:47:42</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/js/abp.dataTable.js">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/js/main.js">
-      <publishTime>04/18/2020 16:51:56</publishTime>
+      <publishTime>04/20/2020 18:06:44</publishTime>
     </File>
     <File Include="wwwroot/libs/abp-web-resources/Abp/Framework/scripts/abp.d.ts">
       <publishTime>04/18/2020 17:43:32</publishTime>
@@ -2587,5 +2590,1801 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/libs/font-awesome/svgs/brands/keybase.svg">
       <publishTime>04/18/2020 17:44:20</publishTime>
     </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/keycdn.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/kickstarter-k.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/kickstarter.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/korvue.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/laravel.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/lastfm-square.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/lastfm.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/leanpub.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/less.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/line.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/linkedin-in.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/linkedin.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/linode.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/linux.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/lyft.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/magento.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mailchimp.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mandalorian.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/markdown.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mastodon.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/maxcdn.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mdb.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/medapps.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/medium-m.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/medium.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/medrt.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/meetup.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/megaport.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mendeley.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/microsoft.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mix.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mixcloud.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/mizuni.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/modx.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/monero.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/napster.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/neos.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/nimblr.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/node-js.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/node.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/npm.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/ns8.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/nutritionix.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/odnoklassniki-square.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/odnoklassniki.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/old-republic.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/opencart.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/openid.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/opera.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/optin-monster.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/orcid.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/osi.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/page4.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pagelines.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/palfed.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/patreon.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/paypal.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/penny-arcade.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/periscope.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/phabricator.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/phoenix-framework.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/phoenix-squadron.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/php.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pied-piper-alt.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pied-piper-hat.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pied-piper-pp.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pied-piper.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pinterest-p.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pinterest-square.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pinterest.svg">
+      <publishTime>04/18/2020 17:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/playstation.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/product-hunt.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/pushed.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/python.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/qq.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/quinscape.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/quora.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/r-project.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/raspberry-pi.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/ravelry.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/react.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/reacteurope.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/readme.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/rebel.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/red-river.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/reddit-alien.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/reddit-square.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/reddit.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/redhat.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/renren.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/replyd.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/researchgate.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/resolving.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/rev.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/rocketchat.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/rockrms.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/safari.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/salesforce.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sass.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/schlix.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/scribd.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/searchengin.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sellcast.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sellsy.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/servicestack.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/shirtsinbulk.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/shopware.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/simplybuilt.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sistrix.svg">
+      <publishTime>04/18/2020 17:44:21</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sith.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sketch.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/skyatlas.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/skype.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/slack-hash.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/slack.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/slideshare.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/snapchat-ghost.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/snapchat-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/snapchat.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/soundcloud.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sourcetree.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/speakap.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/speaker-deck.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/spotify.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/squarespace.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stack-exchange.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stack-overflow.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stackpath.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/staylinked.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/steam-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/steam-symbol.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/steam.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/sticker-mule.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/strava.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stripe-s.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stripe.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/studiovinari.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stumbleupon-circle.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/stumbleupon.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/superpowers.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/supple.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/suse.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/swift.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/symfony.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/teamspeak.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/telegram-plane.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/telegram.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/tencent-weibo.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/the-red-yeti.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/themeco.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/themeisle.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/think-peaks.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/trade-federation.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/trello.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/tripadvisor.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/tumblr-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/tumblr.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/twitch.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/twitter-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/twitter.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/typo3.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/uber.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/ubuntu.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/uikit.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/umbraco.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/uniregistry.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/untappd.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/ups.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/usb.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/usps.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/ussunnah.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vaadin.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/viacoin.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/viadeo-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/viadeo.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/viber.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vimeo-square.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vimeo-v.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vimeo.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vine.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vk.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vnv.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/vuejs.svg">
+      <publishTime>04/18/2020 17:44:22</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/waze.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/weebly.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/weibo.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/weixin.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/whatsapp-square.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/whatsapp.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/whmcs.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wikipedia-w.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/windows.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wix.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wizards-of-the-coast.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wolf-pack-battalion.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wordpress-simple.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wordpress.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wpbeginner.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wpexplorer.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wpforms.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/wpressr.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/xbox.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/xing-square.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/xing.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/y-combinator.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yahoo.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yammer.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yandex-international.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yandex.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yarn.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yelp.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/yoast.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/youtube-square.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/youtube.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/brands/zhihu.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/address-book.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/address-card.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/angry.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/arrow-alt-circle-down.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/arrow-alt-circle-left.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/arrow-alt-circle-right.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/arrow-alt-circle-up.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/bell-slash.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/bell.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/bookmark.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/building.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar-alt.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar-check.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar-minus.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar-plus.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar-times.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/calendar.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/caret-square-down.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/caret-square-left.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/caret-square-right.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/caret-square-up.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/chart-bar.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/check-circle.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/check-square.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/circle.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/clipboard.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/clock.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/clone.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/closed-captioning.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/comment-alt.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/comment-dots.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/comment.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/comments.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/compass.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/copy.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/copyright.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/credit-card.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/dizzy.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/dot-circle.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/edit.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/envelope-open.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/envelope.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/eye-slash.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/eye.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-alt.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-archive.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-audio.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-code.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-excel.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-image.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-pdf.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-powerpoint.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-video.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file-word.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/file.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/flag.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/flushed.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/folder-open.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/folder.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/font-awesome-logo-full.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/frown-open.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/frown.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/futbol.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/gem.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grimace.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-alt.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-beam-sweat.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-beam.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-hearts.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-squint-tears.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-squint.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-stars.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-tears.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-tongue-squint.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-tongue-wink.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-tongue.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin-wink.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/grin.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-lizard.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-paper.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-peace.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-point-down.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-point-left.svg">
+      <publishTime>04/18/2020 17:44:23</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-point-right.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-point-up.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-pointer.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-rock.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-scissors.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hand-spock.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/handshake.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hdd.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/heart.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hospital.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/hourglass.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/id-badge.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/id-card.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/image.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/images.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/keyboard.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/kiss-beam.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/kiss-wink-heart.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/kiss.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/laugh-beam.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/laugh-squint.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/laugh-wink.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/laugh.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/lemon.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/life-ring.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/lightbulb.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/list-alt.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/map.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/meh-blank.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/meh-rolling-eyes.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/meh.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/minus-square.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/money-bill-alt.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/moon.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/newspaper.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/object-group.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/object-ungroup.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/paper-plane.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/pause-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/play-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/plus-square.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/question-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/registered.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/sad-cry.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/sad-tear.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/save.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/share-square.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/smile-beam.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/smile-wink.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/smile.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/snowflake.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/square.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/star-half.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/star.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/sticky-note.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/stop-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/sun.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/surprise.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/thumbs-down.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/thumbs-up.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/times-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/tired.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/trash-alt.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/user-circle.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/user.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/window-close.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/window-maximize.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/window-minimize.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/regular/window-restore.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/ad.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/address-book.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/address-card.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/adjust.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/air-freshener.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/align-center.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/align-justify.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/align-left.svg">
+      <publishTime>04/18/2020 17:44:24</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/align-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/allergies.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/ambulance.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/american-sign-language-interpreting.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/anchor.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-double-down.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-double-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-double-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-double-up.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-down.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angle-up.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/angry.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/ankh.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/apple-alt.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/archive.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/archway.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-alt-circle-down.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-alt-circle-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-alt-circle-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-alt-circle-up.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-circle-down.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-circle-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-circle-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-circle-up.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-down.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrow-up.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrows-alt-h.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrows-alt-v.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/arrows-alt.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/assistive-listening-systems.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/asterisk.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/at.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/atlas.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/atom.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/audio-description.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/award.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/baby-carriage.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/baby.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/backspace.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/backward.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bacon.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/balance-scale-left.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/balance-scale-right.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/balance-scale.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/ban.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/band-aid.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/barcode.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bars.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/baseball-ball.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/basketball-ball.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bath.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/battery-empty.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/battery-full.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/battery-half.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/battery-quarter.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/battery-three-quarters.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bed.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/beer.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bell-slash.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bell.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bezier-curve.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bible.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bicycle.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/biking.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/binoculars.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/biohazard.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/birthday-cake.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/blender-phone.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/blender.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/blind.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/blog.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bold.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bolt.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bomb.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bone.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bong.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/book-dead.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/book-medical.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/book-open.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/book-reader.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/book.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bookmark.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/border-all.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/border-none.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/border-style.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bowling-ball.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/box-open.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/box.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/boxes.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/braille.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/brain.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bread-slice.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/briefcase-medical.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/briefcase.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/broadcast-tower.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/broom.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/brush.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bug.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/building.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bullhorn.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bullseye.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/burn.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bus-alt.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/bus.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/business-time.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calculator.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-alt.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-check.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-day.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-minus.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-plus.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-times.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar-week.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/calendar.svg">
+      <publishTime>04/18/2020 17:44:25</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/camera-retro.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/camera.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/campground.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/candy-cane.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cannabis.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/capsules.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/car-alt.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/car-battery.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/car-crash.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/car-side.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/car.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-down.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-left.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-right.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-square-down.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-square-left.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-square-right.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-square-up.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/caret-up.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/carrot.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cart-arrow-down.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cart-plus.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cash-register.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cat.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/certificate.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chair.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chalkboard-teacher.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chalkboard.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/charging-station.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chart-area.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chart-bar.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chart-line.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chart-pie.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/check-circle.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/check-double.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/check-square.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/check.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cheese.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-bishop.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-board.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-king.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-knight.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-pawn.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-queen.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess-rook.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chess.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-circle-down.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-circle-left.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-circle-right.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-circle-up.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-down.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-left.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-right.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/chevron-up.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/child.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/church.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/circle-notch.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/circle.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/city.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clinic-medical.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clipboard-check.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clipboard-list.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clipboard.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clock.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/clone.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/closed-captioning.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-download-alt.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-meatball.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-moon-rain.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-moon.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-rain.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-showers-heavy.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-sun-rain.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-sun.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud-upload-alt.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cloud.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cocktail.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/code-branch.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/code.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/coffee.svg">
+      <publishTime>04/18/2020 17:44:26</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cog.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cogs.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/coins.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/columns.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment-alt.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment-dollar.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment-dots.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment-medical.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment-slash.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comment.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comments-dollar.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/comments.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/compact-disc.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/compass.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/compress-arrows-alt.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/compress.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/concierge-bell.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cookie-bite.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/cookie.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/copy.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/copyright.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/couch.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/credit-card.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/libs/font-awesome/svgs/solid/crop-alt.svg">
+      <publishTime>04/18/2020 17:44:27</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Data Source=SQL5050.site4now.net%3bInitial Catalog=DB_A5D4F1_mmmyassin%3bUser Id=DB_A5D4F1_mmmyassin_admin%3bPassword=P%40ssword1%3b</Value>
+    </DestinationConnectionStrings>
   </ItemGroup>
 </Project>

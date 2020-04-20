@@ -47,7 +47,8 @@
       "wwwroot/libs/datatables/css/dataTables.bootstrap4.min.css",
       "wwwroot/libs/datatables/css/responsive.bootstrap4.min.css",
       "wwwroot/libs/datatables/css/buttons.bootstrap4.min.css",
-      "wwwroot/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.css",
+      "wwwroot/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css",
+      "wwwroot/libs/bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
       "wwwroot/css/style.css",
       "wwwroot/view-resources/Views/Shared/_Layout.css"
     ]
@@ -84,8 +85,8 @@
       "wwwroot/Common/Scripts/ModalManager.js",
       "wwwroot/Common/Scripts/helpers.js",
       "wwwroot/Common/Scripts/jquery-custom.js",
-      "wwwroot/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.js",
-      "wwwroot/libs/bootstrap4-datetimepicker/src/js/bootstrap-datetimepicker.js",
+      "wwwroot/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+      "wwwroot/libs/bootstrap4-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
       "wwwroot/Common/Scripts/ResourceLoader.js",
       "wwwroot/Common/Scripts/Datatables/datatables.ajax.js",
       "wwwroot/Common/Scripts/Datatables/datatables.record-actions.js",

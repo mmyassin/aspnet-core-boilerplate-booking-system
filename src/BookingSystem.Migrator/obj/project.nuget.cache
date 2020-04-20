@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fs6T97Wrd9Wr3WB/xS4ZAJ2nxksYAHyf2ZrtVUpFiUjWXeBo3Rgru2PMLqpYgr+9V7uNkhXeypSEx3LiXuyQDQ==",
+  "dgSpecHash": "cR7td2KTyyh8/Nb2ypWyDR69nGwR+Vi8WjL49IbKUWiLhWuMKqNBactyQdb4gkwvxxL8E9JBI7Wi3KyhAhWcdg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\repos\\BookingSystem\\aspnet-core\\src\\BookingSystem.Migrator\\BookingSystem.Migrator.csproj",
   "expectedPackageFiles": [

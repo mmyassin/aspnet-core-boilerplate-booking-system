@@ -34,7 +34,7 @@ using BookingSystem.Web.Models.Cities;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7753f9709a7dac946452758d5a388b5bf9b1d00b", @"/Views/Cities/_ViewCityModal.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"09d9865d15f5ae9bd37882112c97727d84c9c534", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b92bd3c898a7223efde67b33c5a52b3cb4585955", @"/Views/_ViewImports.cshtml")]
     public class Views_Cities__ViewCityModal : BookingSystem.Web.Views.BookingSystemRazorPage<CityViewModel>
     {
         #pragma warning disable 1998
