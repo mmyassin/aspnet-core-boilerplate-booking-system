@@ -2,6 +2,8 @@
 using Abp.Configuration.Startup;
 using Abp.Localization;
 using Abp.MultiTenancy;
+using BookingSystem.Authorization.Roles;
+using System.Collections.Generic;
 
 namespace BookingSystem.Authorization
 {
@@ -22,10 +24,11 @@ namespace BookingSystem.Authorization
         {
             var pages = context.GetPermissionOrNull(AppPermissions.Pages) ?? context.CreatePermission(AppPermissions.Pages, L("Pages"));
 
-            var flights = pages.CreateChildPermission(AppPermissions.Pages_Flights, L("Flights"), multiTenancySides: MultiTenancySides.Tenant);
+            var flights = pages.CreateChildPermission(AppPermissions.Pages_Flights, L("Flights"), multiTenancySides: MultiTenancySides.Tenant, properties: new Dictionary<string, object>() { { StaticRoleNames.Tenants.Customers, true } });
             flights.CreateChildPermission(AppPermissions.Pages_Flights_Create, L("CreateNewFlight"), multiTenancySides: MultiTenancySides.Tenant);
             flights.CreateChildPermission(AppPermissions.Pages_Flights_Edit, L("EditFlight"), multiTenancySides: MultiTenancySides.Tenant);
             flights.CreateChildPermission(AppPermissions.Pages_Flights_Delete, L("DeleteFlight"), multiTenancySides: MultiTenancySides.Tenant);
+            flights.CreateChildPermission(AppPermissions.Pages_Flights_Book, L("BookFlight"), multiTenancySides: MultiTenancySides.Tenant, properties: new Dictionary<string, object>() { { StaticRoleNames.Tenants.Customers, true } });
 
 
 

@@ -6,6 +6,7 @@
         public const string Pages_Flights_Create = "Pages.Flights.Create";
         public const string Pages_Flights_Edit = "Pages.Flights.Edit";
         public const string Pages_Flights_Delete = "Pages.Flights.Delete";
+        public const string Pages_Flights_Book = "Pages.Flights.Book";
 
         public const string Pages_Jets = "Pages.Jets";
         public const string Pages_Jets_Create = "Pages.Jets.Create";

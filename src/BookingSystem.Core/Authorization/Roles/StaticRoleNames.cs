@@ -10,6 +10,8 @@ namespace BookingSystem.Authorization.Roles
         public static class Tenants
         {
             public const string Admin = "Admin";
+            public const string Staff = "Staff";
+            public const string Customers = "Customers";
         }
     }
 }

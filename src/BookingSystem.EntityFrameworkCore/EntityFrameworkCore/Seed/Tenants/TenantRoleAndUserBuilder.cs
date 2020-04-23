@@ -33,11 +33,18 @@ namespace BookingSystem.EntityFrameworkCore.Seed.Tenants
             // Admin role
 
             var adminRole = _context.Roles.IgnoreQueryFilters().FirstOrDefault(r => r.TenantId == _tenantId && r.Name == StaticRoleNames.Tenants.Admin);
+            var customersRole = _context.Roles.IgnoreQueryFilters().FirstOrDefault(r => r.TenantId == _tenantId && r.Name == StaticRoleNames.Tenants.Customers);
+            var staffRole = _context.Roles.IgnoreQueryFilters().FirstOrDefault(r => r.TenantId == _tenantId && r.Name == StaticRoleNames.Tenants.Staff);
+
             if (adminRole == null)
-            {
                 adminRole = _context.Roles.Add(new Role(_tenantId, StaticRoleNames.Tenants.Admin, StaticRoleNames.Tenants.Admin) { IsStatic = true }).Entity;
-                _context.SaveChanges();
-            }
+            if (customersRole == null)
+                customersRole = _context.Roles.Add(new Role(_tenantId, StaticRoleNames.Tenants.Customers, StaticRoleNames.Tenants.Customers) { IsStatic = true, IsDefault = true }).Entity;
+            if (staffRole == null)
+                staffRole = _context.Roles.Add(new Role(_tenantId, StaticRoleNames.Tenants.Staff, StaticRoleNames.Tenants.Staff) { IsStatic = true }).Entity;
+
+            _context.SaveChanges();
+
 
             // Grant all permissions to admin role
 
@@ -47,11 +54,25 @@ namespace BookingSystem.EntityFrameworkCore.Seed.Tenants
                 .Select(p => p.Name)
                 .ToList();
 
+            var grantedPermissionsCustomers = _context.Permissions.IgnoreQueryFilters()
+                .OfType<RolePermissionSetting>()
+                .Where(p => p.TenantId == _tenantId && p.RoleId == customersRole.Id)
+                .Select(p => p.Name)
+                .ToList();
+
             var permissions = PermissionFinder
                 .GetAllPermissions(new AppAuthorizationProvider(false))
                 .Where(p => p.MultiTenancySides.HasFlag(MultiTenancySides.Tenant) &&
                             !grantedPermissions.Contains(p.Name))
                 .ToList();
+
+            var permissionsCustomers = PermissionFinder
+                .GetAllPermissions(new AppAuthorizationProvider(false))
+                .Where(p => p.MultiTenancySides.HasFlag(MultiTenancySides.Tenant) &&
+                            p.Properties.ContainsKey(StaticRoleNames.Tenants.Customers) &&
+                            !grantedPermissionsCustomers.Contains(p.Name))
+                .ToList();
+           
 
             if (permissions.Any())
             {
@@ -66,13 +87,25 @@ namespace BookingSystem.EntityFrameworkCore.Seed.Tenants
                 );
                 _context.SaveChanges();
             }
-
+            if (permissionsCustomers.Any())
+            {
+                _context.Permissions.AddRange(
+                    permissionsCustomers.Select(permission => new RolePermissionSetting
+                    {
+                        TenantId = _tenantId,
+                        Name = permission.Name,
+                        IsGranted = true,
+                        RoleId = customersRole.Id
+                    })
+                );
+                _context.SaveChanges();
+            }
             // Admin user
 
             var adminUser = _context.Users.IgnoreQueryFilters().FirstOrDefault(u => u.TenantId == _tenantId && u.UserName == AbpUserBase.AdminUserName);
             if (adminUser == null)
             {
-                adminUser = User.CreateTenantAdminUser(_tenantId, "admin@defaulttenant.com");
+                adminUser = User.CreateTenantAdminUser(_tenantId, "admin@mydomain.com");
                 adminUser.Password = new PasswordHasher<User>(new OptionsWrapper<PasswordHasherOptions>(new PasswordHasherOptions())).HashPassword(adminUser, "123qwe");
                 adminUser.IsEmailConfirmed = true;
                 adminUser.IsActive = true;
