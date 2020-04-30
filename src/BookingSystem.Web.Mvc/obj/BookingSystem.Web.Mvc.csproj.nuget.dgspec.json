@@ -382,10 +382,6 @@
               "target": "Package",
               "version": "[5.4.0, )"
             },
-            "BuildBundlerMinifier": {
-              "target": "Package",
-              "version": "[3.2.435, )"
-            },
             "BuildWebCompiler": {
               "target": "Package",
               "version": "[1.12.394, )"

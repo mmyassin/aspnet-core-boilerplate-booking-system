@@ -15,6 +15,7 @@ namespace BookingSystem.EntityFrameworkCore
         public virtual DbSet<Flight> Flights { get; set; }
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Jet> Jets { get; set; }
+        public virtual DbSet<BookedTicket> BookedTickets { get; set; }
         public BookingSystemDbContext(DbContextOptions<BookingSystemDbContext> options)
             : base(options)
         {

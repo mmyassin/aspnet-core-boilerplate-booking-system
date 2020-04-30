@@ -65,13 +65,12 @@ namespace BookingSystem.Web.Areas.App.Controllers
 
             var model = new FlightViewModel()
             {
-                Flight = getFlightForViewDto.Flight
-                , CityName = getFlightForViewDto.CityName 
-
-                , CityName2 = getFlightForViewDto.CityName2 
-
-                , JetJetType = getFlightForViewDto.JetJetType 
-
+                Flight = getFlightForViewDto.Flight,
+                CityName = getFlightForViewDto.CityName,
+                CityName2 = getFlightForViewDto.CityName2,
+                JetJetType = getFlightForViewDto.JetJetType,
+                BusinessAvailableTickets = getFlightForViewDto.BusinessAvailableTickets,
+                EconomyAvailableTickets = getFlightForViewDto.EconomyAvailableTickets,
             };
 
             return PartialView("_ViewFlightModal", model);

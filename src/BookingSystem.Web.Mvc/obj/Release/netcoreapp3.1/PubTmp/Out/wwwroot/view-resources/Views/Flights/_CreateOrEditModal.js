@@ -23,7 +23,7 @@
             var modal = _modalManager.getModal();
             modal.find('.date-picker').datetimepicker({
                 locale: abp.localization.currentLanguage.name,
-                format: 'L'
+                format: 'L LT'
             });
 
             _$flightInformationForm = _modalManager.getModal().find('form[name=FlightInformationsForm]');

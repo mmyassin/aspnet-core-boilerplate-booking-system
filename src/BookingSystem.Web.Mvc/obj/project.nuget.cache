@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lOXo+fNxhcShTktZkIOPKa/9bWf6jIkYOVow1TM5Y7eaCYGm9M/WriOpRA340++dbeGHdTpY78TNZ7F5OUJAJg==",
+  "dgSpecHash": "rfZ2K0ZTMxyiXFb2+0QLJjChPhuXUNtLC8jGT8b4l41g244EoswVWhPhClKZidmEs1eks4znu5updPPIAAK6SA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\repos\\BookingSystem\\aspnet-core\\src\\BookingSystem.Web.Mvc\\BookingSystem.Web.Mvc.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,6 @@
     "C:\\Users\\Mahmoud\\.nuget\\packages\\abp.zerocore.entityframeworkcore\\5.4.0\\abp.zerocore.entityframeworkcore.5.4.0.nupkg.sha512",
     "C:\\Users\\Mahmoud\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Mahmoud\\.nuget\\packages\\automapper.collection\\6.0.0\\automapper.collection.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mahmoud\\.nuget\\packages\\buildbundlerminifier\\3.2.435\\buildbundlerminifier.3.2.435.nupkg.sha512",
     "C:\\Users\\Mahmoud\\.nuget\\packages\\buildwebcompiler\\1.12.394\\buildwebcompiler.1.12.394.nupkg.sha512",
     "C:\\Users\\Mahmoud\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Mahmoud\\.nuget\\packages\\castle.core.asyncinterceptor\\2.0.21-alpha\\castle.core.asyncinterceptor.2.0.21-alpha.nupkg.sha512",

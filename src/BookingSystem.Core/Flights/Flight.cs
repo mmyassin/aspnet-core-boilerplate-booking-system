@@ -1,12 +1,11 @@
-﻿using BookingSystem.Flights;
-using BookingSystem.Cities;
-using BookingSystem.Cities;
+﻿using BookingSystem.Cities;
 using BookingSystem.Jets;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities.Auditing;
 using Abp.Domain.Entities;
+using System.Collections.Generic;
 
 namespace BookingSystem.Flights
 {
@@ -47,6 +46,8 @@ namespace BookingSystem.Flights
 		
         [ForeignKey("JetId")]
 		public Jet JetFk { get; set; }
-		
-    }
+
+		public virtual ICollection<BookedTicket> BookedTickets { get; set; }
+
+	}
 }

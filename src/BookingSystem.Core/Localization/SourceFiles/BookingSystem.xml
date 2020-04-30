@@ -149,6 +149,9 @@
 		<text name="Enum_FlightStatus_2">Open</text>
 		<text name="Enum_FlightStatus_3">Delay</text>
 		<text name="Enum_FlightStatus_4">Closed</text>
+		
+		<text name="BusinessAvailableTickets">Available Tickets (Business Class)</text>
+		<text name="EconomyAvailableTickets">Available Tickets (Economy Class)</text>
 
 	</texts>
 </localizationDictionary>

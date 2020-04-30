@@ -490,3 +490,304 @@ INFO  2020-04-19 02:21:49,305 [18   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2020-04-19 02:21:49,314 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Cities.CitiesAppService.Delete (BookingSystem.Application) in 259.2893ms
 INFO  2020-04-19 02:21:49,321 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Cities.CitiesAppService.Delete (BookingSystem.Application)'
 INFO  2020-04-19 02:21:49,329 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 345.2175ms 200 application/json; charset=utf-8
+DEBUG 2020-04-29 22:30:36,299 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-29 22:30:36,951 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-29 22:30:36,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.Web.Host.Startup.BookingSystemWebHostModule, BookingSystem.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemWebCoreModule, BookingSystem.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemApplicationModule, BookingSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemCoreModule, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.EntityFrameworkCore.BookingSystemEntityFrameworkModule, BookingSystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:36,984 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-29 22:30:37,268 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:30:37,268 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:30:37,268 [1    ] o.Configuration.LanguageManagementConfig - Converted BookingSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:30:37,268 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:30:37,989 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BookingSystem.EntityFrameworkCore.BookingSystemDbContext, BookingSystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:30:39,757 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-29 22:30:39,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-29 22:30:39,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-29 22:30:39,849 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookingSystem
+DEBUG 2020-04-29 22:30:39,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-29 22:30:40,276 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-29 22:30:40,539 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[BookingSystem.MultiTenancy.Tenant, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BookingSystem.Authorization.Users.User, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-29 22:30:40,619 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2020-04-29 22:30:40,620 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-29 22:30:40,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Users.Dto.CreateUserDto
+DEBUG 2020-04-29 22:30:40,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Users.Dto.UserDto
+DEBUG 2020-04-29 22:30:40,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Roles.Dto.PermissionDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Jets.Dtos.CreateOrEditJetDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Jets.Dtos.JetDto
+DEBUG 2020-04-29 22:30:40,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Flights.Dtos.CreateOrEditFlightDto
+DEBUG 2020-04-29 22:30:40,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Flights.Dtos.FlightDto
+DEBUG 2020-04-29 22:30:40,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Cities.Dtos.CityDto
+DEBUG 2020-04-29 22:30:40,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Cities.Dtos.CreateOrEditCityDto
+INFO  2020-04-29 22:30:45,738 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-04-29 22:30:46,663 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Mahmoud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-04-29 22:30:46,848 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-04-29 22:30:47,142 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:30:54,233 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BookingSystem.Web.Host.Controllers.HomeController (BookingSystem.Web.Host).
+INFO  2020-04-29 22:30:56,288 [8    ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host) - Validation state: Valid
+INFO  2020-04-29 22:30:56,301 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action method BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6677ms.
+INFO  2020-04-29 22:30:56,651 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-04-29 22:30:56,662 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host) in 2421.3291ms
+INFO  2020-04-29 22:30:56,667 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:30:56,699 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9851.7565ms 302 
+INFO  2020-04-29 22:30:56,706 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-04-29 22:30:56,758 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.0657ms 301 
+INFO  2020-04-29 22:30:56,770 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-04-29 22:30:57,029 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 259.919ms 200 text/html;charset=utf-8
+INFO  2020-04-29 22:30:57,116 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-04-29 22:30:57,120 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-04-29 22:30:57,124 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-04-29 22:30:57,139 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-04-29 22:30:57,190 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-04-29 22:30:57,261 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-04-29 22:30:57,261 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-04-29 22:30:57,270 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 149.279ms 200 application/javascript
+INFO  2020-04-29 22:30:57,275 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-04-29 22:30:57,289 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 97.4738ms 200 application/javascript
+INFO  2020-04-29 22:30:57,291 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-04-29 22:30:57,315 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 197.7035ms 200 text/css
+INFO  2020-04-29 22:30:57,321 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-04-29 22:30:57,338 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 185.1083ms 200 application/javascript
+INFO  2020-04-29 22:30:57,346 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 212.8861ms 200 application/javascript
+INFO  2020-04-29 22:30:57,692 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-04-29 22:30:57,703 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:30:57,725 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller BookingSystem.Web.Host.Controllers.AntiForgeryController (BookingSystem.Web.Host).
+INFO  2020-04-29 22:30:57,789 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host) - Validation state: Valid
+INFO  2020-04-29 22:30:57,791 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-04-29 22:30:57,814 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 19.3507ms.
+INFO  2020-04-29 22:30:57,865 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:30:57,872 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-04-29 22:30:57,896 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-04-29 22:30:57,910 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.0926ms 200 image/png
+INFO  2020-04-29 22:30:57,945 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host) in 206.0477ms
+INFO  2020-04-29 22:30:57,962 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:30:57,968 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 276.4501ms 200 application/json; charset=utf-8
+INFO  2020-04-29 22:30:58,241 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 454.5224ms 200 application/json;charset=utf-8
+INFO  2020-04-29 22:31:03,162 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2020-04-29 22:31:03,175 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-04-29 22:31:03,178 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-04-29 22:31:03,187 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Controllers.TokenAuthController.Authenticate (BookingSystem.Web.Core)'
+INFO  2020-04-29 22:31:03,215 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[BookingSystem.Models.TokenAuth.AuthenticateResultModel] Authenticate(BookingSystem.Models.TokenAuth.AuthenticateModel) on controller BookingSystem.Controllers.TokenAuthController (BookingSystem.Web.Core).
+INFO  2020-04-29 22:31:04,662 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Controllers.TokenAuthController.Authenticate (BookingSystem.Web.Core) - Validation state: Valid
+INFO  2020-04-29 22:31:05,395 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method BookingSystem.Controllers.TokenAuthController.Authenticate (BookingSystem.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 728.03ms.
+INFO  2020-04-29 22:31:05,413 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:31:05,422 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Controllers.TokenAuthController.Authenticate (BookingSystem.Web.Core) in 2202.7402ms
+INFO  2020-04-29 22:31:05,429 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Controllers.TokenAuthController.Authenticate (BookingSystem.Web.Core)'
+INFO  2020-04-29 22:31:05,449 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2272.1233ms 200 application/json; charset=utf-8
+INFO  2020-04-29 22:31:05,458 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-04-29 22:31:05,469 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1176ms 200 text/html;charset=utf-8
+INFO  2020-04-29 22:31:05,631 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-04-29 22:31:05,681 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-04-29 22:31:05,732 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:31:05,737 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:31:05,839 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:31:05,855 [21   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller BookingSystem.Web.Host.Controllers.AntiForgeryController (BookingSystem.Web.Host).
+INFO  2020-04-29 22:31:06,081 [21   ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host) - Validation state: Valid
+INFO  2020-04-29 22:31:06,092 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action method BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 5.382ms.
+INFO  2020-04-29 22:31:06,117 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:31:06,129 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host) in 267.7153ms
+INFO  2020-04-29 22:31:06,139 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:31:06,143 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 513.9484ms 200 application/json; charset=utf-8
+INFO  2020-04-29 22:31:06,153 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 473.8771ms 200 application/json;charset=utf-8
+INFO  2020-04-29 22:31:21,405 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Flights/GetAll  
+INFO  2020-04-29 22:31:21,413 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:31:21,420 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:31:21,460 [21   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookingSystem.Flights.Dtos.GetFlightForViewDto]] GetAll(BookingSystem.Flights.Dtos.GetAllFlightsInput) on controller BookingSystem.Flights.FlightsAppService (BookingSystem.Application).
+INFO  2020-04-29 22:31:23,674 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) - Validation state: Valid
+ERROR 2020-04-29 22:31:24,541 [23   ] Mvc.ExceptionHandling.AbpExceptionFilter - When called from 'VisitLambda', rewriting a node of type 'System.Linq.Expressions.ParameterExpression' must return a non-null value of the same type. Alternatively, override 'VisitLambda' and change it to not visit children of this type.
+System.InvalidOperationException: When called from 'VisitLambda', rewriting a node of type 'System.Linq.Expressions.ParameterExpression' must return a non-null value of the same type. Alternatively, override 'VisitLambda' and change it to not visit children of this type.
+   at System.Linq.Expressions.ExpressionVisitor.VisitAndConvert[T](T node, String callerName)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitParameters(ExpressionVisitor visitor, IParameterProvider nodes, String callerName)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.VisitMemberAssignment(MemberAssignment memberAssignment)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMemberBinding(MemberBinding node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.VisitMemberInit(MemberInitExpression memberInitExpression)
+   at System.Linq.Expressions.MemberInitExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Translate(SelectExpression selectExpression, Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateSelect(ShapedQueryExpression source, LambdaExpression selector)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at BookingSystem.Flights.FlightsAppService.GetAll(GetAllFlightsInput input) in D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\Flights\FlightsAppService.cs:line 90
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-04-29 22:31:25,225 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:31:25,238 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) in 3768.8513ms
+INFO  2020-04-29 22:31:25,242 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:31:25,247 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3843.7279ms 500 application/json; charset=utf-8
+INFO  2020-04-29 22:33:06,631 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Flights/GetAll  
+INFO  2020-04-29 22:33:06,643 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:33:06,665 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:33:06,689 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookingSystem.Flights.Dtos.GetFlightForViewDto]] GetAll(BookingSystem.Flights.Dtos.GetAllFlightsInput) on controller BookingSystem.Flights.FlightsAppService (BookingSystem.Application).
+INFO  2020-04-29 22:33:06,739 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) - Validation state: Valid
+ERROR 2020-04-29 22:33:06,904 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - When called from 'VisitLambda', rewriting a node of type 'System.Linq.Expressions.ParameterExpression' must return a non-null value of the same type. Alternatively, override 'VisitLambda' and change it to not visit children of this type.
+System.InvalidOperationException: When called from 'VisitLambda', rewriting a node of type 'System.Linq.Expressions.ParameterExpression' must return a non-null value of the same type. Alternatively, override 'VisitLambda' and change it to not visit children of this type.
+   at System.Linq.Expressions.ExpressionVisitor.VisitAndConvert[T](T node, String callerName)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitParameters(ExpressionVisitor visitor, IParameterProvider nodes, String callerName)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.VisitMemberAssignment(MemberAssignment memberAssignment)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMemberBinding(MemberBinding node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.VisitMemberInit(MemberInitExpression memberInitExpression)
+   at System.Linq.Expressions.MemberInitExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalProjectionBindingExpressionVisitor.Translate(SelectExpression selectExpression, Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateSelect(ShapedQueryExpression source, LambdaExpression selector)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at BookingSystem.Flights.FlightsAppService.GetAll(GetAllFlightsInput input) in D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Application\Flights\FlightsAppService.cs:line 90
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-04-29 22:33:06,911 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:33:06,919 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) in 220.522ms
+INFO  2020-04-29 22:33:06,926 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:33:06,932 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 299.7523ms 500 application/json; charset=utf-8
+DEBUG 2020-04-29 22:34:02,077 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-29 22:34:02,371 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-29 22:34:02,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.Web.Host.Startup.BookingSystemWebHostModule, BookingSystem.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemWebCoreModule, BookingSystem.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemApplicationModule, BookingSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.BookingSystemCoreModule, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookingSystem.EntityFrameworkCore.BookingSystemEntityFrameworkModule, BookingSystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:02,428 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-29 22:34:02,543 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:34:02,544 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:34:02,544 [1    ] o.Configuration.LanguageManagementConfig - Converted BookingSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:34:02,544 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-29 22:34:03,374 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BookingSystem.EntityFrameworkCore.BookingSystemDbContext, BookingSystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-29 22:34:05,135 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-29 22:34:05,206 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-29 22:34:05,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-29 22:34:05,229 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookingSystem
+DEBUG 2020-04-29 22:34:05,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-29 22:34:05,658 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-29 22:34:05,924 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[BookingSystem.MultiTenancy.Tenant, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BookingSystem.Authorization.Users.User, BookingSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-29 22:34:05,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2020-04-29 22:34:05,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-29 22:34:06,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Users.Dto.CreateUserDto
+DEBUG 2020-04-29 22:34:06,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Users.Dto.UserDto
+DEBUG 2020-04-29 22:34:06,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-29 22:34:06,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-29 22:34:06,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Roles.Dto.PermissionDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Jets.Dtos.CreateOrEditJetDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Jets.Dtos.JetDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Flights.Dtos.CreateOrEditFlightDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Flights.Dtos.FlightDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Cities.Dtos.CityDto
+DEBUG 2020-04-29 22:34:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookingSystem.Cities.Dtos.CreateOrEditCityDto
+INFO  2020-04-29 22:34:09,900 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-04-29 22:34:10,363 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Mahmoud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-04-29 22:34:10,497 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-04-29 22:34:10,642 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:34:17,047 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BookingSystem.Web.Host.Controllers.HomeController (BookingSystem.Web.Host).
+INFO  2020-04-29 22:34:19,062 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-04-29 22:34:19,079 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host) in 2019.3718ms
+INFO  2020-04-29 22:34:19,083 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Web.Host.Controllers.HomeController.Index (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:34:19,129 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8625.5896ms 302 
+INFO  2020-04-29 22:34:19,134 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-04-29 22:34:19,396 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 259.9071ms 200 text/html;charset=utf-8
+INFO  2020-04-29 22:34:19,795 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-04-29 22:34:19,855 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-04-29 22:34:20,010 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:34:20,010 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:34:20,156 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:34:20,167 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller BookingSystem.Web.Host.Controllers.AntiForgeryController (BookingSystem.Web.Host).
+INFO  2020-04-29 22:34:20,234 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:34:20,292 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host) in 99.4957ms
+INFO  2020-04-29 22:34:20,297 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Web.Host.Controllers.AntiForgeryController.SetCookie (BookingSystem.Web.Host)'
+INFO  2020-04-29 22:34:20,304 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 506.3277ms 200 application/json; charset=utf-8
+INFO  2020-04-29 22:34:20,532 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 677.4968ms 200 application/json;charset=utf-8
+INFO  2020-04-29 22:34:29,162 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Flights/GetAll  
+INFO  2020-04-29 22:34:29,172 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:34:29,178 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:34:29,222 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookingSystem.Flights.Dtos.GetFlightForViewDto]] GetAll(BookingSystem.Flights.Dtos.GetAllFlightsInput) on controller BookingSystem.Flights.FlightsAppService (BookingSystem.Application).
+INFO  2020-04-29 22:34:32,457 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:34:32,465 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) in 3238.6242ms
+INFO  2020-04-29 22:34:32,471 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:34:32,476 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3316.1804ms 200 application/json; charset=utf-8
+INFO  2020-04-29 22:34:50,863 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Flights/GetAll?StatusFilter=-1  
+INFO  2020-04-29 22:34:50,875 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-04-29 22:34:50,882 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:34:50,898 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookingSystem.Flights.Dtos.GetFlightForViewDto]] GetAll(BookingSystem.Flights.Dtos.GetAllFlightsInput) on controller BookingSystem.Flights.FlightsAppService (BookingSystem.Application).
+INFO  2020-04-29 22:34:51,013 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-29 22:34:51,053 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application) in 134.3297ms
+INFO  2020-04-29 22:34:51,057 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookingSystem.Flights.FlightsAppService.GetAll (BookingSystem.Application)'
+INFO  2020-04-29 22:34:51,064 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 198.5027ms 200 application/json; charset=utf-8

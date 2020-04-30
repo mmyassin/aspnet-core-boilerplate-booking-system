@@ -10,6 +10,9 @@
 
 		public string JetJetType { get; set;}
 
+		public int BusinessAvailableTickets { get; set; }
+		public int EconomyAvailableTickets { get; set; }
 
-    }
+
+	}
 }

@@ -4,14 +4,16 @@ using BookingSystem.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BookingSystem.Migrations
 {
     [DbContext(typeof(BookingSystemDbContext))]
-    partial class BookingSystemDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200429193412_ADD_TABLE_BOOKEDTICKETS")]
+    partial class ADD_TABLE_BOOKEDTICKETS
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1989,7 +1991,7 @@ namespace BookingSystem.Migrations
             modelBuilder.Entity("BookingSystem.Flights.BookedTicket", b =>
                 {
                     b.HasOne("BookingSystem.Flights.Flight", "FlightFk")
-                        .WithMany("BookedTickets")
+                        .WithMany()
                         .HasForeignKey("FlightId");
                 });
 

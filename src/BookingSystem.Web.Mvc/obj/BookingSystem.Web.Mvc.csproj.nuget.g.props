@@ -21,6 +21,5 @@
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Mahmoud\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\Mahmoud\.nuget\packages\microsoft.typescript.msbuild\3.8.3</PkgMicrosoft_TypeScript_MSBuild>
     <PkgBuildWebCompiler Condition=" '$(PkgBuildWebCompiler)' == '' ">C:\Users\Mahmoud\.nuget\packages\buildwebcompiler\1.12.394</PkgBuildWebCompiler>
-    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">C:\Users\Mahmoud\.nuget\packages\buildbundlerminifier\3.2.435</PkgBuildBundlerMinifier>
   </PropertyGroup>
 </Project>

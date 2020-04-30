@@ -40,6 +40,7 @@
             paging: true,
             serverSide: true,
             processing: true,
+            responsive: true,
             listAction: {
                 ajaxFunction: _flightsService.getAll,
                 inputFilter: function () {
@@ -54,9 +55,17 @@
                     };
                 }
             },
+            buttons: [
+                {
+                    name: 'refresh',
+                    text: '<i class="fas fa-redo-alt"></i>',
+                    action: () => dataTable.ajax.reload()
+                }
+            ],
+            
             columnDefs: [
                 {
-                    width: 120,
+                    width: 100,
                     targets: 0,
                     data: null,
                     orderable: false,
@@ -97,23 +106,22 @@
                     name: "status",
                     render: function (status) {
                         return app.localize('Enum_FlightStatus_' + status);
-                    }
-
+                    },
                 },
                 {
                     targets: 2,
                     data: "flight.flightNumber",
-                    name: "flightNumber"
+                    name: "flightNumber",
                 },
                 {
                     targets: 3,
                     data: "cityName",
-                    name: "locationOfDepartureFk.name"
+                    name: "locationOfDepartureFk.name",
                 },
                 {
                     targets: 4,
                     data: "cityName2",
-                    name: "locationOfArrivalFk.name"
+                    name: "locationOfArrivalFk.name",
                 },
                 {
                     targets: 5,
@@ -121,10 +129,10 @@
                     name: "departureDate",
                     render: function (departureDate) {
                         if (departureDate) {
-                            return moment(departureDate).format('L');
+                            return moment(departureDate).format('L LT');
                         }
                         return "";
-                    }
+                    },
 
                 },
                 {
@@ -133,36 +141,36 @@
                     name: "arrivalDate",
                     render: function (arrivalDate) {
                         if (arrivalDate) {
-                            return moment(arrivalDate).format('L');
+                            return moment(arrivalDate).format('L LT');
                         }
                         return "";
-                    }
+                    },
 
                 },
                 {
                     targets: 7,
                     data: "flight.economySeats",
-                    name: "economySeats"
+                    name: "economySeats",
                 },
                 {
                     targets: 8,
                     data: "flight.businessSeats",
-                    name: "businessSeats"
+                    name: "businessSeats",
                 },
                 {
                     targets: 9,
                     data: "flight.economyPrice",
-                    name: "economyPrice"
+                    name: "economyPrice",
                 },
                 {
                     targets: 10,
                     data: "flight.businessPrice",
-                    name: "businessPrice"
+                    name: "businessPrice",
                 },
                 {
                     targets: 11,
                     data: "jetJetType",
-                    name: "jetFk.jetType"
+                    name: "jetFk.jetType",
                 }
             ]
         });

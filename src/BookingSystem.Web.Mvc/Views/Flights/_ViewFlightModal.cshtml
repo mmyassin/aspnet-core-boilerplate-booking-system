@@ -9,50 +9,60 @@
     <div id="FlightInformationsTab">
         
         <div class="row">
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("FlightNumber") :</h6>
                 @Model.Flight.FlightNumber
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("DepartureDate") :</h6>
                 @Model.Flight.DepartureDate
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("ArrivalDate") :</h6>
                 @Model.Flight.ArrivalDate
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("EconomySeats") :</h6>
                 @Model.Flight.EconomySeats
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("BusinessSeats") :</h6>
                 @Model.Flight.BusinessSeats
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("EconomyPrice") :</h6>
                 @Model.Flight.EconomyPrice
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("BusinessPrice") :</h6>
                 @Model.Flight.BusinessPrice
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>@L("Status") :</h6>
                 @L("Enum_FlightStatus_" + (int)Model.Flight.Status)
             </div>
 
-            <div class="col-6 mb-3">
-                <h6>(@L("City")) @L("Name") :</h6>
+            <div class="col-md-4 mb-3">
+                <h6>@L("LocationOfDeparture") :</h6>
                 @Model.CityName
             </div>
-            <div class="col-6 mb-3">
-                <h6>(@L("City")) @L("Name") :</h6>
+            <div class="col-md-4 mb-3">
+                <h6>@L("LocationOfArrival") :</h6>
                 @Model.CityName2
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <h6>(@L("Jet")) @L("JetType") :</h6>
                 @Model.JetJetType
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <h6>@L("BusinessAvailableTickets") :</h6>
+                @Model.BusinessAvailableTickets
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <h6>@L("EconomyAvailableTickets") :</h6>
+                @Model.EconomyAvailableTickets
             </div>
 
         </div>

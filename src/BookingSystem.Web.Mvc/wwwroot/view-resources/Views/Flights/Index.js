@@ -12,7 +12,8 @@
         var _permissions = {
             create: abp.auth.hasPermission('Pages.Flights.Create'),
             edit: abp.auth.hasPermission('Pages.Flights.Edit'),
-            'delete': abp.auth.hasPermission('Pages.Flights.Delete')
+            'delete': abp.auth.hasPermission('Pages.Flights.Delete'),
+            book: abp.auth.hasPermission('Pages.Flights.Book'),
         };
 
         var _createOrEditModal = new app.ModalManager({
@@ -98,6 +99,15 @@
                                 action: function (data) {
                                     deleteFlight(data.record.flight);
                                 }
+                            },
+                            {
+                                text: app.localize('Book'),
+                                visible: function () {
+                                    return _permissions.book;
+                                },
+                                action: function (data) {
+                                    _bookFlightModal.open({ id: data.record.flight.id });
+                                }
                             }]
                     }
                 }, {
@@ -171,6 +181,14 @@
                     targets: 11,
                     data: "jetJetType",
                     name: "jetFk.jetType",
+                },
+                {
+                    targets: 12,
+                    data: "businessAvailableTickets",
+                },
+                {
+                    targets: 13,
+                    data: "economyAvailableTickets",
                 }
             ]
         });

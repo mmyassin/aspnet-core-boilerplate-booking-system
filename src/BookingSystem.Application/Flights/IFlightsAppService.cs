@@ -24,6 +24,5 @@ namespace BookingSystem.Flights
 		Task<PagedResultDto<FlightCityLookupTableDto>> GetAllCityForLookupTable(GetAllForLookupTableInput input);
 		
 		Task<PagedResultDto<FlightJetLookupTableDto>> GetAllJetForLookupTable(GetAllForLookupTableInput input);
-		
-    }
+	}
 }
