@@ -30,7 +30,12 @@ namespace BookingSystem.Web.Areas.App.Controllers
 			};
 
             return View(model);
-        } 
+        }
+
+        public ActionResult MyTickets()
+        {
+            return View();
+        }
 
         [AbpMvcAuthorize(AppPermissions.Pages_Flights_Create, AppPermissions.Pages_Flights_Edit)]
         public async Task<PartialViewResult> CreateOrEditModal(int? id)
@@ -76,6 +81,35 @@ namespace BookingSystem.Web.Areas.App.Controllers
             return PartialView("_ViewFlightModal", model);
         }
 
+        public async Task<PartialViewResult> BookOrEditTicketModal(int? id, int flightId)
+        {
+            BookOrEditTicketDto bookOrEditTicketDto;
+            var getFlightForViewDto = await _flightsAppService.GetFlightForView(flightId);
+
+            if (id.HasValue)
+            {
+                bookOrEditTicketDto = await _flightsAppService.GetTicket(new EntityDto { Id = (int)id });
+            }
+            else
+            {
+                bookOrEditTicketDto = new BookOrEditTicketDto
+                {
+                    TicketNumber = BookedTicket.RandomString(10),
+                    FlightId = flightId,
+                    Class = TicketClass.ECONONY,
+                    Price = getFlightForViewDto.Flight.EconomyPrice,
+                };
+            }
+
+            var model = new BookOrEditTicketViewModel()
+            {
+                Flight = getFlightForViewDto.Flight,
+                CityName = getFlightForViewDto.CityName,
+                CityName2 = getFlightForViewDto.CityName2,
+                Ticket = bookOrEditTicketDto,
+            };
+            return PartialView("_BookOrEditTicketModal", model);
+        }
         [AbpMvcAuthorize(AppPermissions.Pages_Flights_Create, AppPermissions.Pages_Flights_Edit)]
         public PartialViewResult CityLookupTableModal(int? id, string displayName)
         {

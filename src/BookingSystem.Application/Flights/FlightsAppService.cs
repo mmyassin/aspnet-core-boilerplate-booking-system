@@ -13,6 +13,7 @@ using Abp.Authorization;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.CompilerServices;
 using Abp.Runtime.Session;
+using System;
 
 namespace BookingSystem.Flights
 {
@@ -250,5 +251,110 @@ namespace BookingSystem.Flights
                 lookupTableDtoList
             );
          }
+
+        public async Task<BookOrEditTicketDto> GetTicket(EntityDto input)
+        {
+            var ticket = await _ticketRepository.FirstOrDefaultAsync(input.Id);
+
+            var output = ObjectMapper.Map<BookOrEditTicketDto>(ticket);
+
+            return output;
+        }
+
+        public async Task BookOrEditTicket(BookOrEditTicketDto input)
+        {
+            if (input.Id == null)
+            {
+                await CreateTicket(input);
+            }
+            else
+            {
+                await UpdateTicket(input);
+            }
+        }
+
+        private async Task UpdateTicket(BookOrEditTicketDto input)
+        {
+            var ticket = await _ticketRepository.FirstOrDefaultAsync((int)input.Id);
+            ObjectMapper.Map(input, ticket);
+        }
+
+        private async Task CreateTicket(BookOrEditTicketDto input)
+        {
+            var ticket = ObjectMapper.Map<BookedTicket>(input);
+
+            await _ticketRepository.InsertAsync(ticket);
+        }
+
+        public async Task<PagedResultDto<GetBookedTicketForViewDto>> GetAllBookedTickets(GetAllBookedTicketsInput input)
+        {
+            var filteredTickets = _ticketRepository.GetAll()
+                        .Include(e => e.FlightFk)
+                        .Where(e=> e.CreatorUserId == input.UserId)
+                        .WhereIf(!string.IsNullOrWhiteSpace(input.Filter), 
+                            e => false || 
+                            e.TicketNumber.Contains(input.Filter) || 
+                            e.FlightFk.FlightNumber.Contains(input.Filter));
+
+            var pagedAndFilteredTickets = filteredTickets
+                .OrderBy(input.Sorting ?? "id asc")
+                .PageBy(input);
+
+            var tickets = from o in pagedAndFilteredTickets
+                          join o1 in _lookup_cityRepository.GetAll() on o.FlightFk.LocationOfDepartureId equals o1.Id into j1
+                          from s1 in j1.DefaultIfEmpty()
+
+                          join o2 in _lookup_cityRepository.GetAll() on o.FlightFk.LocationOfArrivalId equals o2.Id into j2
+                          from s2 in j2.DefaultIfEmpty()
+
+                          join o3 in _lookup_jetRepository.GetAll() on o.FlightFk.JetId equals o3.Id into j3
+                          from s3 in j3.DefaultIfEmpty()
+
+                          select new GetBookedTicketForViewDto()
+                          {
+                              Flight = new FlightDto
+                              {
+                                  FlightNumber = o.FlightFk.FlightNumber,
+                                  DepartureDate = o.FlightFk.DepartureDate,
+                                  ArrivalDate = o.FlightFk.ArrivalDate,
+                                  EconomySeats = o.FlightFk.EconomySeats,
+                                  BusinessSeats = o.FlightFk.BusinessSeats,
+                                  EconomyPrice = o.FlightFk.EconomyPrice,
+                                  BusinessPrice = o.FlightFk.BusinessPrice,
+                                  Status = o.FlightFk.Status,
+                                  Id = o.FlightFk.Id
+                              },
+                              Ticket = new BookedTicketDto 
+                              { 
+                                  TicketNumber = o.TicketNumber,
+                                  PassengerFullName = o.PassengerFullName,
+                                  Class = o.Class,
+                                  FlightId = o.FlightId,
+                                  CardNumber = o.CardNumber,
+                                  CVV = o.CVV,
+                                  Expiry = o.Expiry,
+                                  Price = o.Price,
+                                  IsCanceled = o.IsCanceled,
+                                  IsPaid = o.IsPaid,
+                                  Id = o.Id
+                              },
+                              CityName = s1 == null ? "" : s1.DisplayName.ToString() + ", " + s1.Code,
+                              CityName2 = s2 == null ? "" : s2.DisplayName.ToString() + ", " + s2.Code,
+                              JetJetType = s3 == null ? "" : s3.JetType.ToString(),
+                          };
+
+            var totalCount = await filteredTickets.CountAsync();
+
+            return new PagedResultDto<GetBookedTicketForViewDto>(
+                totalCount,
+                await tickets.ToListAsync()
+            );
+        }
+
+        public async Task CancelTicket(EntityDto input)
+        {
+            var ticket = await _ticketRepository.FirstOrDefaultAsync((int)input.Id);
+            ticket.IsCanceled = true;
+        }
     }
 }

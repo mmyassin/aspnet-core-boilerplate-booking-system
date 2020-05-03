@@ -20,6 +20,7 @@
 
         public static class Tenant
         {
+            public const string MyTickets = "Flights.MyTickets";
             public const string Flights = "Flights.Flights";
             public const string Cities = "Cities.Cities";
             public const string Jets = "Jets.Jets";

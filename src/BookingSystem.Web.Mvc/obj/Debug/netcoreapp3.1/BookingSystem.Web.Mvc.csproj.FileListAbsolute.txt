@@ -547,3 +547,5 @@ D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\
 D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\netcoreapp3.1\BookingSystem.Web.Mvc.dll
 D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\netcoreapp3.1\BookingSystem.Web.Mvc.pdb
 D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\netcoreapp3.1\BookingSystem.Web.Mvc.genruntimeconfig.cache
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Flights\_BookOrEditTicketModal.cshtml.g.cs
+D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Flights\MyTickets.cshtml.g.cs

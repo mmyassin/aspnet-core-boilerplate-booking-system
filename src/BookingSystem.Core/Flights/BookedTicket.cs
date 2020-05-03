@@ -20,6 +20,9 @@ namespace BookingSystem.Flights
         public TicketClass Class { get; set; }
         public decimal Price { get; set; }
         public bool IsPaid { get; set; }
+        public string CardNumber { get; set; }
+        public string CVV { get; set; }
+        public string Expiry { get; set; }
         public bool IsCanceled { get; set; }
         public long? CreatorUserId { get; set; }
         public DateTime CreationTime { get; set; }

@@ -20,7 +20,13 @@ namespace BookingSystem.Flights
 
 		Task Delete(EntityDto input);
 
-		
+		Task<BookOrEditTicketDto> GetTicket(EntityDto input);
+
+		Task BookOrEditTicket(BookOrEditTicketDto input);
+
+		Task CancelTicket(EntityDto input);
+		Task<PagedResultDto<GetBookedTicketForViewDto>> GetAllBookedTickets(GetAllBookedTicketsInput input);
+
 		Task<PagedResultDto<FlightCityLookupTableDto>> GetAllCityForLookupTable(GetAllForLookupTableInput input);
 		
 		Task<PagedResultDto<FlightJetLookupTableDto>> GetAllJetForLookupTable(GetAllForLookupTableInput input);

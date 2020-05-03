@@ -1,0 +1,57 @@
+﻿@using BookingSystem.Authorization
+@using BookingSystem.Web.Models.Flights
+@using BookingSystem.Web.Startup
+@model FlightsViewModel
+@{
+    ViewBag.CurrentPageName = AppPageNames.Tenant.MyTickets;
+}
+@section Scripts
+{
+    <environment names="Development">
+        <script src="~/view-resources/Views/Flights/MyTickets.js" asp-append-version="true"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/Flights/MyTickets.min.js" asp-append-version="true"></script>
+    </environment>
+}
+
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>@L("MyTickets")</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="TicketsTable" class="table table-striped table-bordered nowrap" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>@L("Actions")</th>
+                                        <th>@L("TicketNumber")</th>
+                                        <th>@L("FlightNumber")</th>
+                                        <th>@L("LocationOfDeparture")</th>
+                                        <th>@L("LocationOfArrival")</th>
+                                        <th>@L("DepartureDate")</th>
+                                        <th>@L("IsPaid")</th>
+                                        <th>@L("IsCanceled")</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

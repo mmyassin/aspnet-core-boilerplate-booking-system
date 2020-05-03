@@ -22,12 +22,16 @@
             modalClass: 'CreateOrEditFlightModal'
         });
 
-		 var _viewFlightModal = new app.ModalManager({
+        var _viewFlightModal = new app.ModalManager({
             viewUrl: abp.appPath + 'Flights/ViewflightModal',
             modalClass: 'ViewFlightModal'
         });
 
-		
+        var _bookOrEditTicketModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'Flights/BookOrEditTicketModal',
+            scriptUrl: abp.appPath + 'view-resources/Views/Flights/_BookOrEditTicketModal.js',
+            modalClass: 'BookOrEditTicketModal'
+        });
 		
 
         var getDateFilter = function (element) {
@@ -106,7 +110,7 @@
                                     return _permissions.book;
                                 },
                                 action: function (data) {
-                                    _bookFlightModal.open({ id: data.record.flight.id });
+                                    _bookOrEditTicketModal.open({ id: null, flightId: data.record.flight.id });
                                 }
                             }]
                     }
@@ -234,6 +238,11 @@
         abp.event.on('app.createOrEditFlightModalSaved', function () {
             getFlights();
         });
+
+        abp.event.on('app.bookOrEditTicketModalSaved', function () {
+            getFlights();
+        });
+
 
 		$('#GetFlightsButton').click(function (e) {
             e.preventDefault();

@@ -150,8 +150,23 @@
 		<text name="Enum_FlightStatus_3">Delay</text>
 		<text name="Enum_FlightStatus_4">Closed</text>
 		
-		<text name="BusinessAvailableTickets">Available Tickets (Business Class)</text>
-		<text name="EconomyAvailableTickets">Available Tickets (Economy Class)</text>
+		<text name="BusinessAvailableTickets">Available Tickets (Business class)</text>
+		<text name="EconomyAvailableTickets">Available Tickets (Economy class)</text>
 
+		<text name="Enum_TicketClass_1">Economy class</text>
+		<text name="Enum_TicketClass_2">Business class</text>
+
+		<text name="TicketClass">Ticket class</text>
+		<text name="Price">Price</text>
+		<text name="TicketNumber">Ticket#</text>
+		<text name="PassengerFullName">Passenger full name</text>
+		<text name="EditTicket">Edit ticket</text>
+		<text name="BookNewTicket">Book new ticket</text>
+		<text name="IsPaid">Payment</text>
+		<text name="CardNumber">Card Number</text>
+		<text name="CVV">CVV</text>
+		<text name="Expiry">Expiry</text>
+		<text name="MyTickets">My tickets</text>
+		<text name="IsCanceled">Canceled</text>
 	</texts>
 </localizationDictionary>

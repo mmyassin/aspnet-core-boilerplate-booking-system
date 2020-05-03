@@ -1571,6 +1571,12 @@ namespace BookingSystem.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("CVV")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardNumber")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Class")
                         .HasColumnType("int");
 
@@ -1579,6 +1585,9 @@ namespace BookingSystem.Migrations
 
                     b.Property<long?>("CreatorUserId")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("Expiry")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("FlightId")
                         .HasColumnType("int");

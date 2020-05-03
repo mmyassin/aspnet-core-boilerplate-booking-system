@@ -67,10 +67,18 @@ namespace BookingSystem.Web.Startup
                 ).AddItem(new MenuItemDefinition(
                         AppPageNames.Tenant.Flights,
                         L("Flights"),
-                        url: "Flights",
+                        url: "Flights/Index",
                         icon: "fas fa-plane-departure",
                         permissionDependency: new SimplePermissionDependency(AppPermissions.Pages_Flights),
                         order: 6
+                    )
+                ).AddItem(new MenuItemDefinition(
+                        AppPageNames.Tenant.MyTickets,
+                        L("MyTickets"),
+                        url: "Flights/MyTickets",
+                        icon: "fa fa-ticket-alt",
+                        permissionDependency: new SimplePermissionDependency(AppPermissions.Pages_Flights),
+                        order: 7
                     )
                 );
         }

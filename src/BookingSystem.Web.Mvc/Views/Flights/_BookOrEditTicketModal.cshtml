@@ -1,0 +1,106 @@
+﻿@using BookingSystem.Flights;
+					
+@using System.Globalization
+@using BookingSystem.Web.Models.Common.Modals
+@using BookingSystem.Web.Models.Flights
+@model BookOrEditTicketViewModel
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditTicket")) : L("BookNewTicket")))
+
+    <div class="modal-body">
+        <div id="TicketInformationsTab">
+            <form name="TicketInformationsForm" role="form" novalidate class="form-validation">
+
+                @if (Model.IsEditMode)
+                {
+                    <input type="hidden" name="id" value="@Model.Ticket.Id" />
+                }
+                <input type="hidden" name="flightId" value="@Model.Flight.Id" />
+                <input type="hidden" name="businessPrice" value="@Model.Flight.BusinessPrice" />
+                <input type="hidden" name="economyPrice" value="@Model.Flight.EconomyPrice" />
+                <input type="checkbox" name="isCanceled" value="true" @Html.Raw(Model.Ticket.IsCanceled ? "checked=\"checked\"" : "") hidden/>
+                <div class=" row">
+                    <div class="col-md-6 mb-3">
+                        <h6>@L("FlightNumber") :</h6>
+                        @Model.Flight.FlightNumber
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>@L("LocationOfDeparture") :</h6>
+                        @Model.CityName
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>@L("DepartureDate") :</h6>
+                        @Model.Flight.DepartureDate
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>@L("LocationOfArrival") :</h6>
+                        @Model.CityName2
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        @{
+                            var selectListClass = Html.GetEnumSelectList(typeof(TicketClass));
+                            foreach (var selectOption in selectListClass) { selectOption.Text = L("Enum_TicketClass_" + selectOption.Value); }
+                        }
+                        <div class="form-group m-form__group">
+                            <label for="Ticket_Class">@L("TicketClass")</label>
+                            <select class="form-control m-input m-input--square" name="class" id="Ticket_Class" asp-for="@Model.Ticket.Class" asp-items="@selectListClass">
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="Ticket_Price">@L("Price")</label>
+                            <input class="form-control" id="Ticket_Price" asp-for="@Model.Ticket.Price" type="text" name="price" required disabled />
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="form-group">
+                            <label for="Ticket_Price">@L("TicketNumber")</label>
+                            <input class="form-control" id="Ticket_Number" asp-for="@Model.Ticket.TicketNumber" type="text" name="ticketNumber" required disabled />
+                        </div>
+                    </div>
+                    <div class="col-md-9 mb-3">
+                        <div class="form-group">
+                            <label for="Passenger_Full_Name">@L("PassengerFullName")</label>
+                            <input class="form-control" id="Passenger_Full_Name" asp-for="@Model.Ticket.PassengerFullName" type="text" name="passengerFullName" required />
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="m-checkbox-list">
+                            <label for="Ticket_IsPaid" class="kt-checkbox">
+                                <input id="Ticket_IsPaid" type="checkbox" name="isPaid" value="true" @Html.Raw(Model.Ticket.IsPaid ? "checked=\"checked\"" : "") />
+                                @L("IsPaid")
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="paymentDetails">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="Card_Number">@L("CardNumber")</label>
+                            <input class="form-control" id="Card_Number" asp-for="@Model.Ticket.CardNumber" type="text" name="cardNumber" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="form-group">
+                            <label for="CVV">@L("CVV")</label>
+                            <input class="form-control" id="CVV" asp-for="@Model.Ticket.CVV" type="text" name="cVV" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="form-group">
+                            <label for="Expiry">@L("Expiry") (Month/Year)</label>
+                            <input class="form-control" id="Expiry" asp-for="@Model.Ticket.Expiry" type="text" name="expiry" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+@await Html.PartialAsync("~/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")
