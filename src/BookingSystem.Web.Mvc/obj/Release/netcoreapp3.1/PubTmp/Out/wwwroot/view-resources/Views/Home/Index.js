@@ -1,95 +1,212 @@
-﻿$(function () {
+﻿(function () {
+    $(function () {
+        var _$flightsTable = $('#FlightsTable');
+        var _flightsService = abp.services.app.flights;
 
-    'use strict';
+        var _permissions = {
+            create: abp.auth.hasPermission('Pages.Flights.Create'),
+            edit: abp.auth.hasPermission('Pages.Flights.Edit'),
+            'delete': abp.auth.hasPermission('Pages.Flights.Delete'),
+            book: abp.auth.hasPermission('Pages.Flights.Book'),
+        };
 
-    /* ChartJS
-     * -------
-     * Here we will create a few charts using ChartJS
-     */
+        var _createOrEditModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'Flights/CreateOrEditModal',
+            scriptUrl: abp.appPath + 'view-resources/Views/Flights/_CreateOrEditModal.js',
+            modalClass: 'CreateOrEditFlightModal'
+        });
 
-    //-----------------------
-    //- MONTHLY SALES CHART -
-    //-----------------------
+        var _viewFlightModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'Flights/ViewflightModal',
+            modalClass: 'ViewFlightModal'
+        });
 
-    // Get context with jQuery - using jQuery's .get() method.
-    var salesChartCanvas = $('#salesChart').get(0).getContext('2d');
-    // This will get the first returned node in the jQuery collection.
+        function getToday() {
+            let data = new Date();
+            let day = data.getDate();
+            let month = data.getMonth();
+            let year = data.getFullYear();
 
-    var salesChartData = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-        datasets: [
-            {
-                label: 'Electronics',
-                fill: '#dee2e6',
-                borderColor: '#ced4da',
-                pointBackgroundColor: '#ced4da',
-                pointBorderColor: '#c1c7d1',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(220,220,220)',
-                spanGaps: true,
-                data: [65, 59, 80, 81, 56, 55, 40]
+            return new Date(year, month, day, 0, 0, 0);
+        }
+        var dataTable = _$flightsTable.DataTable({
+            paging: false,
+            serverSide: true,
+            processing: false,
+            responsive: true,
+            listAction: {
+                ajaxFunction: _flightsService.getAll,
+                inputFilter: function () {
+                    return {
+                        filter: '',
+                        departureDateFilter: getToday(),
+                        arrivalDateFilter: '',
+                        statusFilter: -1,
+                        cityNameFilter: '',
+                        cityName2Filter: '',
+                        jetJetTypeFilter: ''
+                    };
+                }
             },
-            {
-                label: 'Digital Goods',
-                fill: 'rgba(0, 123, 255, 0.9)',
-                borderColor: 'rgba(0, 123, 255, 1)',
-                pointBackgroundColor: '#3b8bba',
-                pointBorderColor: 'rgba(0, 123, 255, 1)',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgba(0, 123, 255, 1)',
-                spanGaps: true,
-                data: [28, 48, 40, 19, 86, 27, 90]
-            }
-        ]
-    };
+            buttons: [],
 
-    var salesChartOptions = {
-        //Boolean - If we should show the scale at all
-        showScale: true,
-        //Boolean - Whether grid lines are shown across the chart
-        scaleShowGridLines: false,
-        //String - Colour of the grid lines
-        scaleGridLineColor: 'rgba(0,0,0,.05)',
-        //Number - Width of the grid lines
-        scaleGridLineWidth: 1,
-        //Boolean - Whether to show horizontal lines (except X axis)
-        scaleShowHorizontalLines: true,
-        //Boolean - Whether to show vertical lines (except Y axis)
-        scaleShowVerticalLines: true,
-        //Boolean - Whether the line is curved between points
-        bezierCurve: true,
-        //Number - Tension of the bezier curve between points
-        bezierCurveTension: 0.3,
-        //Boolean - Whether to show a dot for each point
-        pointDot: false,
-        //Number - Radius of each point dot in pixels
-        pointDotRadius: 4,
-        //Number - Pixel width of point dot stroke
-        pointDotStrokeWidth: 1,
-        //Number - amount extra to add to the radius to cater for hit detection outside the drawn point
-        pointHitDetectionRadius: 20,
-        //Boolean - Whether to show a stroke for datasets
-        datasetStroke: true,
-        //Number - Pixel width of dataset stroke
-        datasetStrokeWidth: 2,
-        //Boolean - Whether to fill the dataset with a color
-        datasetFill: true,
-        //String - A legend template
-        legendTemplate: '<ul class="<%=name.toLowerCase()%>-legend"><% for (var i=0; i<datasets.length; i++){%><li><span style="background-color:<%=datasets[i].lineColor%>"></span><%=datasets[i].label%></li><%}%></ul>',
-        //Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
-        maintainAspectRatio: false,
-        //Boolean - whether to make the chart responsive to window resizing
-        responsive: true
-    };
+            columnDefs: [
+                {
+                    width: 100,
+                    targets: 0,
+                    data: null,
+                    orderable: false,
+                    autoWidth: false,
+                    defaultContent: '',
+                    rowAction: {
+                        cssClass: 'btn btn-brand dropdown-toggle',
+                        text: '<i class="fa fa-cog"></i> ' + app.localize('Actions') + ' <span class="caret"></span>',
+                        items: [
+                            {
+                                text: app.localize('View'),
+                                action: function (data) {
+                                    _viewFlightModal.open({ id: data.record.flight.id });
+                                }
+                            },
+                            {
+                                text: app.localize('Edit'),
+                                visible: function () {
+                                    return _permissions.edit;
+                                },
+                                action: function (data) {
+                                    _createOrEditModal.open({ id: data.record.flight.id });
+                                }
+                            },
+                            {
+                                text: app.localize('Delete'),
+                                visible: function () {
+                                    return _permissions.delete;
+                                },
+                                action: function (data) {
+                                    deleteFlight(data.record.flight);
+                                }
+                            },
+                            {
+                                text: app.localize('Book'),
+                                visible: function () {
+                                    return _permissions.book;
+                                },
+                                action: function (data) {
+                                    _bookFlightModal.open({ id: data.record.flight.id });
+                                }
+                            }]
+                    }
+                }, {
+                    targets: 1,
+                    data: "flight.status",
+                    name: "status",
+                    render: function (status) {
+                        return app.localize('Enum_FlightStatus_' + status);
+                    },
+                },
+                {
+                    targets: 2,
+                    data: "flight.flightNumber",
+                    name: "flightNumber",
+                },
+                {
+                    targets: 3,
+                    data: "cityName",
+                    name: "locationOfDepartureFk.name",
+                },
+                {
+                    targets: 4,
+                    data: "cityName2",
+                    name: "locationOfArrivalFk.name",
+                },
+                {
+                    targets: 5,
+                    data: "flight.departureDate",
+                    name: "departureDate",
+                    render: function (departureDate) {
+                        if (departureDate) {
+                            return moment(departureDate).format('L LT');
+                        }
+                        return "";
+                    },
 
-    //Create the line chart
-    var salesChart = new Chart(salesChartCanvas, {
-        type: 'line',
-        data: salesChartData,
-        options: salesChartOptions
+                },
+                {
+                    targets: 6,
+                    data: "flight.arrivalDate",
+                    name: "arrivalDate",
+                    render: function (arrivalDate) {
+                        if (arrivalDate) {
+                            return moment(arrivalDate).format('L LT');
+                        }
+                        return "";
+                    },
+
+                },
+                {
+                    targets: 7,
+                    data: "flight.economySeats",
+                    name: "economySeats",
+                },
+                {
+                    targets: 8,
+                    data: "flight.businessSeats",
+                    name: "businessSeats",
+                },
+                {
+                    targets: 9,
+                    data: "flight.economyPrice",
+                    name: "economyPrice",
+                },
+                {
+                    targets: 10,
+                    data: "flight.businessPrice",
+                    name: "businessPrice",
+                },
+                {
+                    targets: 11,
+                    data: "jetJetType",
+                    name: "jetFk.jetType",
+                },
+                {
+                    targets: 12,
+                    data: "businessAvailableTickets",
+                },
+                {
+                    targets: 13,
+                    data: "economyAvailableTickets",
+                }
+            ]
+        });
+
+        function getFlights() {
+            dataTable.ajax.reload();
+        }
+
+        function deleteFlight(flight) {
+            abp.message.confirm(
+                '',
+                app.localize('AreYouSure'),
+                function (isConfirmed) {
+                    if (isConfirmed) {
+                        _flightsService.delete({
+                            id: flight.id
+                        }).done(function () {
+                            getFlights(true);
+                            abp.notify.success(app.localize('SuccessfullyDeleted'));
+                        });
+                    }
+                }
+            );
+        }
+
+        abp.event.on('app.createOrEditFlightModalSaved', function () {
+            getFlights();
+        });
+
+        $('#GetFlightsButton').click(function (e) {
+            e.preventDefault();
+            getFlights();
+        });
     });
-
-    //---------------------------
-    //- END MONTHLY SALES CHART -
-    //---------------------------
-});
+})();

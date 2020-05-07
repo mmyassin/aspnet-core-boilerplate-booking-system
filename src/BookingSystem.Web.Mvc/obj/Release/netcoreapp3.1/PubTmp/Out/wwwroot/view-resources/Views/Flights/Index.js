@@ -12,7 +12,8 @@
         var _permissions = {
             create: abp.auth.hasPermission('Pages.Flights.Create'),
             edit: abp.auth.hasPermission('Pages.Flights.Edit'),
-            'delete': abp.auth.hasPermission('Pages.Flights.Delete')
+            'delete': abp.auth.hasPermission('Pages.Flights.Delete'),
+            book: abp.auth.hasPermission('Pages.Flights.Book'),
         };
 
         var _createOrEditModal = new app.ModalManager({
@@ -21,12 +22,16 @@
             modalClass: 'CreateOrEditFlightModal'
         });
 
-		 var _viewFlightModal = new app.ModalManager({
+        var _viewFlightModal = new app.ModalManager({
             viewUrl: abp.appPath + 'Flights/ViewflightModal',
             modalClass: 'ViewFlightModal'
         });
 
-		
+        var _bookOrEditTicketModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'Flights/BookOrEditTicketModal',
+            scriptUrl: abp.appPath + 'view-resources/Views/Flights/_BookOrEditTicketModal.js',
+            modalClass: 'BookOrEditTicketModal'
+        });
 		
 
         var getDateFilter = function (element) {
@@ -97,6 +102,15 @@
                                 },
                                 action: function (data) {
                                     deleteFlight(data.record.flight);
+                                }
+                            },
+                            {
+                                text: app.localize('Book'),
+                                visible: function () {
+                                    return _permissions.book;
+                                },
+                                action: function (data) {
+                                    _bookOrEditTicketModal.open({ id: null, flightId: data.record.flight.id });
                                 }
                             }]
                     }
@@ -171,6 +185,14 @@
                     targets: 11,
                     data: "jetJetType",
                     name: "jetFk.jetType",
+                },
+                {
+                    targets: 12,
+                    data: "businessAvailableTickets",
+                },
+                {
+                    targets: 13,
+                    data: "economyAvailableTickets",
                 }
             ]
         });
@@ -216,6 +238,11 @@
         abp.event.on('app.createOrEditFlightModalSaved', function () {
             getFlights();
         });
+
+        abp.event.on('app.bookOrEditTicketModalSaved', function () {
+            getFlights();
+        });
+
 
 		$('#GetFlightsButton').click(function (e) {
             e.preventDefault();
