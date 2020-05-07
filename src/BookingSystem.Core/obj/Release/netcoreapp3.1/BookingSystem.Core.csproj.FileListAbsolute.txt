@@ -1,9 +1,0 @@
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\bin\Release\netcoreapp3.1\BookingSystem.Core.deps.json
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\bin\Release\netcoreapp3.1\BookingSystem.Core.dll
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\bin\Release\netcoreapp3.1\BookingSystem.Core.pdb
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.csprojAssemblyReference.cache
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.csproj.CoreCompileInputs.cache
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.AssemblyInfoInputs.cache
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.AssemblyInfo.cs
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.dll
-D:\Projects\repos\BookingSystem\aspnet-core\src\BookingSystem.Core\obj\Release\netcoreapp3.1\BookingSystem.Core.pdb
